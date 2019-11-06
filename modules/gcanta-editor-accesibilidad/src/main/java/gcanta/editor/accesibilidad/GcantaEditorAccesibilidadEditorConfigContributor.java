@@ -66,6 +66,7 @@ public class GcantaEditorAccesibilidadEditorConfigContributor extends BaseEditor
 		if (_log.isDebugEnabled()) {
 			_log.debug("json after:" + jsonObject);
 		}
+		
 
 	}
 	

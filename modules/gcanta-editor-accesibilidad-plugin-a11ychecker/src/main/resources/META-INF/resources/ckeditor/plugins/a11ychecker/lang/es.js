@@ -4,25 +4,25 @@
  */
 
 CKEDITOR.plugins.setLang( 'a11ychecker', 'es', {
-	toolbar: 'Verificador de Acessibilidade',
-	closeBtn: 'Fechar',
+	toolbar: 'Check Accessibility',
+	closeBtn: 'Close',
 	testability: {
-		'0': 'observação',
-		'0.5': 'alerta',
-		'1': 'erro'
+		'0': 'notice',
+		'0.5': 'warning',
+		'1': 'error'
 	},
-	ignoreBtn: 'Ignorar',
-	ignoreBtnTitle: 'Ignorar este problema',
-	stopIgnoreBtn: 'Parar de ignorar',
-	listeningInfo: 'Aguardando por mudanças no conteúdo. Quando terminar, clique em <strong>Verificar novamente</strong> abaixo.',
-	listeningCheckAgain: 'Verificar novamente',
-	balloonLabel: 'Verificador de Acessibilidade',
-	navigationNext: 'Próximo',
-	navigationNextTitle: 'Próximo problema',
-	navigationPrev: 'Anterior',
-	navigationPrevTitle: 'Problema anterior',
-	quickFixButton: 'Reparar rapidamente',
-	quickFixButtonTitle: 'Reparar rapidamente este problema',
-	navigationCounter: 'Problema {current} de {total} ({testability})',
-	noIssuesMessage: 'El documento no tiene problemas de accesibilidad'
+	ignoreBtn: 'Ignore',
+	ignoreBtnTitle: 'Ignore this issue',
+	stopIgnoreBtn: 'Stop ignoring',
+	listeningInfo: 'Waiting for manual content changes. When done, click <strong>Check again</strong> below.',
+	listeningCheckAgain: 'Check again',
+	balloonLabel: 'Accessibility Checker',
+	navigationNext: 'Next',
+	navigationNextTitle: 'Next issue',
+	navigationPrev: 'Previous',
+	navigationPrevTitle: 'Previous issue',
+	quickFixButton: 'Quick fix',
+	quickFixButtonTitle: 'Quick fix this issue',
+	navigationCounter: 'Issue {current} of {total} ({testability})',
+	noIssuesMessage: 'El contenido no tiene problemas de accesibilidad.'
 } );

@@ -1,18 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry kind="src" output="bin/main" path="src/main/java">
+	<classpathentry kind="output" path="bin/default"/>
+	<classpathentry output="bin/main" kind="src" path="src/main/java">
 		<attributes>
 			<attribute name="gradle_scope" value="main"/>
 			<attribute name="gradle_used_by_scope" value="main,test,testIntegration"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="src" output="bin/main" path="src/main/resources">
+	<classpathentry output="bin/main" kind="src" path="src/main/resources">
 		<attributes>
 			<attribute name="gradle_scope" value="main"/>
 			<attribute name="gradle_used_by_scope" value="main,test,testIntegration"/>
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8/"/>
-	<classpathentry kind="con" path="org.eclipse.buildship.core.gradleclasspathcontainer"/>
-	<classpathentry kind="output" path="bin/default"/>
+	<classpathentry sourcepath="/Users/sergios/.gradle/caches/modules-2/files-2.1/com.liferay.portal/com.liferay.portal.kernel/3.6.2/c6dcb4d03f7a87673d1a6f6ded3728914502bc24/com.liferay.portal.kernel-3.6.2-sources.jar" kind="lib" path="/Users/sergios/.gradle/caches/modules-2/files-2.1/com.liferay.portal/com.liferay.portal.kernel/3.6.2/559bebf17d96eb7ffe64996a301aa5359e7ad939/com.liferay.portal.kernel-3.6.2.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/sergios/.gradle/caches/modules-2/files-2.1/com.liferay.portal/com.liferay.util.taglib/3.1.2/2404295aca0331d8949421301445f01485ea9b75/com.liferay.util.taglib-3.1.2-sources.jar" kind="lib" path="/Users/sergios/.gradle/caches/modules-2/files-2.1/com.liferay.portal/com.liferay.util.taglib/3.1.2/1b22471013f21971286184574cbc47ea927029e6/com.liferay.util.taglib-3.1.2.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/sergios/.gradle/caches/modules-2/files-2.1/javax.portlet/portlet-api/2.0/aa3977c82050c29bb3577fc98c428d61ec187503/portlet-api-2.0-sources.jar" kind="lib" path="/Users/sergios/.gradle/caches/modules-2/files-2.1/javax.portlet/portlet-api/2.0/1cd72f2a37fcf8ab9893a9468d7ba71c85fe2653/portlet-api-2.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/sergios/.gradle/caches/modules-2/files-2.1/javax.servlet/javax.servlet-api/3.0.1/1952f91d84016a39e31346c9d18bd8c9c4a128a/javax.servlet-api-3.0.1-sources.jar" kind="lib" path="/Users/sergios/.gradle/caches/modules-2/files-2.1/javax.servlet/javax.servlet-api/3.0.1/6bf0ebb7efd993e222fc1112377b5e92a13b38dd/javax.servlet-api-3.0.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Users/sergios/.gradle/caches/modules-2/files-2.1/jstl/jstl/1.2/74aca283cd4f4b4f3e425f5820cda58f44409547/jstl-1.2.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/sergios/.gradle/caches/modules-2/files-2.1/org.osgi/org.osgi.service.component.annotations/1.3.0/987e7f0748a883a66952dc6cc5fefd6e97ab7f84/org.osgi.service.component.annotations-1.3.0-sources.jar" kind="lib" path="/Users/sergios/.gradle/caches/modules-2/files-2.1/org.osgi/org.osgi.service.component.annotations/1.3.0/ef17ec0e7f73cd144599da108d72a24285d1f5d5/org.osgi.service.component.annotations-1.3.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value=""/>
+		</attributes>
+	</classpathentry>
 </classpath>

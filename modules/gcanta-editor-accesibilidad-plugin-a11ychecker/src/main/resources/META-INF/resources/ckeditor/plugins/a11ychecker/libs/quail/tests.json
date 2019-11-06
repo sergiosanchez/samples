@@ -6,7 +6,8 @@
       "de": "Angrenzende Verknüpfungen, die auf das gleiche Ziel zeigen, sollten zusammengeführt werden",
       "en": "Adjacent links that point to the same location should be merged",
       "nl": "Voeg naast elkaar gelegen links die naar dezelfde locatie verwijzen samen",
-      "pt-br": "Links adjacentes que apontam para o mesmo local devem ser mesclados"
+      "pt-br": "Links adjacentes que apontam para o mesmo local devem ser mesclados",
+      "es": "Los nlaces que apuntan a la misma dirección deben juntarse"
     },
     "description": {
       "de": "Da viele Benutzer von Bildschirmleseprogrammen Verknüpfungen verwenden, um auf der Seite zu navigieren, können zwei Verknüpfungen direkt nebeneinander verwirrend sein. Versuchen Sie, die Verknüpfungen zusammenzuführen.",

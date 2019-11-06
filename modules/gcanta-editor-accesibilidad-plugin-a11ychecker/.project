@@ -1,24 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
 	<name>gcanta-editor-accesibilidad-plugin-a11ychecker</name>
-	<comment>Project gcanta-editor-accesibilidad-plugin-a11ychecker created by Buildship.</comment>
-	<projects>
-	</projects>
-	<buildSpec>
-		<buildCommand>
-			<name>org.eclipse.jdt.core.javabuilder</name>
-			<arguments>
-			</arguments>
-		</buildCommand>
-		<buildCommand>
-			<name>org.eclipse.buildship.core.gradleprojectbuilder</name>
-			<arguments>
-			</arguments>
-		</buildCommand>
-	</buildSpec>
+	<comment>gcanta-editor-accesibilidad-plugin-a11ychecker</comment>
+	<projects/>
 	<natures>
 		<nature>org.eclipse.jdt.core.javanature</nature>
 		<nature>com.liferay.ide.core.liferayNature</nature>
-		<nature>org.eclipse.buildship.core.gradleprojectnature</nature>
 	</natures>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.jdt.core.javabuilder</name>
+			<arguments/>
+		</buildCommand>
+	</buildSpec>
+	<linkedResources/>
+	<filteredResources/>
+	<filteredResources>
+		<filter>
+			<id>1573055267020</id>
+			<name/>
+			<type>26</type>
+			<matcher>
+				<id>org.eclipse.ui.ide.orFilterMatcher</id>
+				<arguments>
+					<matcher>
+						<arguments>1.0-name-matches-false-false-.git</arguments>
+						<id>org.eclipse.ui.ide.multiFilter</id>
+					</matcher>
+					<matcher>
+						<arguments>1.0-name-matches-false-false-.gradle</arguments>
+						<id>org.eclipse.ui.ide.multiFilter</id>
+					</matcher>
+					<matcher>
+						<arguments>1.0-name-matches-false-false-build</arguments>
+						<id>org.eclipse.ui.ide.multiFilter</id>
+					</matcher>
+					<matcher>
+						<arguments>1.0-name-matches-false-false-node_modules</arguments>
+						<id>org.eclipse.ui.ide.multiFilter</id>
+					</matcher>
+					<matcher>
+						<arguments>1.0-name-matches-false-false-node_modules_cache</arguments>
+						<id>org.eclipse.ui.ide.multiFilter</id>
+					</matcher>
+					<matcher>
+						<arguments>1.0-name-matches-false-false-tmp</arguments>
+						<id>org.eclipse.ui.ide.multiFilter</id>
+					</matcher>
+				</arguments>
+			</matcher>
+		</filter>
+	</filteredResources>
 </projectDescription>
