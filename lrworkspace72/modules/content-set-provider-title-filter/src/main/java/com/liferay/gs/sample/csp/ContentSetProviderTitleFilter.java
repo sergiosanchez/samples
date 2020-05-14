@@ -9,15 +9,18 @@ import com.liferay.info.provider.InfoListProviderContext;
 import com.liferay.info.sort.Sort;
 import com.liferay.journal.service.JournalArticleLocalService;
 import com.liferay.portal.configuration.metatype.bnd.util.ConfigurableUtil;
+import com.liferay.portal.kernel.language.LanguageUtil;
 import com.liferay.portal.kernel.model.Company;
 import com.liferay.portal.kernel.model.Group;
 import com.liferay.portal.kernel.search.Hits;
+import com.liferay.portal.kernel.util.ResourceBundleUtil;
 import com.liferay.portal.kernel.workflow.WorkflowConstants;
 
 import java.util.List;
 import java.util.Locale;
 import java.util.Map;
 import java.util.Optional;
+import java.util.ResourceBundle;
 
 import org.osgi.service.component.annotations.Activate;
 import org.osgi.service.component.annotations.Component;
@@ -84,8 +87,10 @@ public class ContentSetProviderTitleFilter implements InfoListProvider<AssetEntr
 
 	@Override
 	public String getLabel(Locale locale) {
-		// TODO Auto-generated method stub
-		return null;
+		ResourceBundle resourceBundle = ResourceBundleUtil.getBundle(
+			"content.Language", locale, getClass());
+			
+		return LanguageUtil.get(resourceBundle, CONTENT_SET_PROVIDER_NAME_KEY);
 	}
 
 	@Reference
