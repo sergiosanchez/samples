@@ -49,7 +49,7 @@ public class ContentSetProviderTitleFilter implements InfoListProvider<AssetEntr
 		String className = null;
 		long classTypeId = 0;
 		String userName = null;
-		String title = _titleInfoListConfiguration.assetTitle();
+		String title = _configuration.assetTitle();
 		String description = null;
 		String assetCategoryIds = null;
 		String assetTagNames = null;
