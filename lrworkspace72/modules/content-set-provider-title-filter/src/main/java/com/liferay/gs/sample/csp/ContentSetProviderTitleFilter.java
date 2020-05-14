@@ -10,6 +10,8 @@ import com.liferay.info.sort.Sort;
 import com.liferay.journal.service.JournalArticleLocalService;
 import com.liferay.portal.configuration.metatype.bnd.util.ConfigurableUtil;
 import com.liferay.portal.kernel.language.LanguageUtil;
+import com.liferay.portal.kernel.log.Log;
+import com.liferay.portal.kernel.log.LogFactoryUtil;
 import com.liferay.portal.kernel.model.Company;
 import com.liferay.portal.kernel.model.Group;
 import com.liferay.portal.kernel.search.Hits;
@@ -69,6 +71,10 @@ public class ContentSetProviderTitleFilter implements InfoListProvider<AssetEntr
 		
 		List<AssetEntry> assetEntries = _assetHelper.getAssetEntries(hits);
 		
+		if (_log.isDebugEnabled()) {
+			_log.debug("Assets retrieved: " + assetEntries);
+		}
+		
 		return assetEntries;
 	}
 
@@ -108,6 +114,9 @@ public class ContentSetProviderTitleFilter implements InfoListProvider<AssetEntr
 		_configuration = ConfigurableUtil.createConfigurable(
 			Configuration.class, properties);
 	}
+	
+	private static final Log _log = LogFactoryUtil.getLog(
+		ContentSetProviderTitleFilter.class);
 	
 	private volatile Configuration _configuration;
 	
