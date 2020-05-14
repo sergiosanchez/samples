@@ -1,4 +1,10 @@
 dependencies {
-	compileOnly group: "com.liferay.portal", name: "com.liferay.portal.kernel"
 	compileOnly group: "org.osgi", name: "org.osgi.service.component.annotations"
+	compileOnly group: "com.liferay.portal", name: "com.liferay.portal.kernel"
+	compileOnly group: "com.liferay", name: "com.liferay.info.api"
+	compileOnly group: "com.liferay", name: "com.liferay.asset.api"
+	compileOnly group: "com.liferay", name: "com.liferay.journal.api"
+	compileOnly group: "com.liferay", name: "com.liferay.portal.configuration.metatype.api"
+	compileOnly group: "javax.servlet", name: "javax.servlet-api"
+	compile group: "biz.aQute.bnd", name: "biz.aQute.bndlib", version: "3.5.0"
 }
