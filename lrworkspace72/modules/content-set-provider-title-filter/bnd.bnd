@@ -1,0 +1,3 @@
+Bundle-Name: content-set-provider-title-filter
+Bundle-SymbolicName: com.liferay.gs.sample.csp
+Bundle-Version: 1.0.0
